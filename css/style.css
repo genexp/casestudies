@@ -1,0 +1,218 @@
+body, td {
+    
+}
+
+a {
+}
+
+a:hover {
+}
+.container li {
+    list-style: none;
+}
+.header img {
+    width: 100%;
+}
+.jumbotron{
+    background: url('images/header.png') no-repeat;
+    background-size: 100%;     
+} 
+@media (min-width : 1000px){
+    .jumbotron{
+        height: 510px;
+    }
+}
+@media (min-width : 700px) (max-width : 1000px){
+    .jumbotron{
+        height: 480px;
+    }
+}        
+
+@media (min-width: 1330px) {
+    .container {
+        width: 1300px;
+        padding: 0;
+    }
+}
+.container .jumbotron {
+    border-radius: 0;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.middle-earth {
+    padding: 0 13% 4%;
+    text-align: center;
+}
+.middle-earth h1{ font-weight: bold; line-height: 55px;}
+.middle-earth span{ 
+    font-size: 19px;
+    display: block;
+    width: 88%;
+    margin: 0 auto;
+    line-height: 35px;
+}
+.task-btn li{
+    list-style: none;
+}
+.task-btn li a {
+/*    width: 165px;*/
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 5%;
+}
+.task-btn li a span {
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 7px;
+    left: 32px;
+}
+.middle-earth ul {
+    margin-top: 3%;
+    padding: 0;
+}
+.middle-earth ul li{
+/*    margin-right: 5%;*/
+}
+.middle-earth .title .col-md-8{
+/*    width: 70%;*/
+}
+.middle-earth .title .col-md-2{
+    width: 14%;
+}
+.middle-earth{}
+
+.anothercontent{
+    background-color: #809097;
+    padding: 6% 13% 6% 13%;
+    position: relative;
+}
+.anothercontent p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.charactor {
+    position: absolute;
+    bottom: -30%;
+    right: -2%;
+}
+
+.components{
+    background: url('images/componentbackground.png');
+    width: auto;
+    height: auto;
+    padding: 5% 11% 8% 11%;
+    color: #fff;
+}
+.components h3{
+    font-weight: bold;
+    line-height: 80px;
+}
+.components span {
+    line-height: 30px;
+    font-size: 20px;
+}
+.componentstitle {
+    padding: 0 2%;
+}
+.components p{
+        font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.components ul {
+    padding: 0;
+}
+.components li {
+    list-style: none;
+    margin-top: 30px;
+}
+.components ul.custoimages li{
+    margin-top: 0;
+}
+.components ul.custoimages li:first-child{
+    padding-left: 0;
+}
+.components ul.custoimages li.thumb5{
+    padding-right: 0;
+}
+@media (max-width : 1000px){
+    .components ul.custoimages li{
+        padding: 0;
+    }
+    .components ul.custoimages li.thumb5{
+        margin-top: 30px;
+    }
+}
+.conc-art {
+    margin-top: 21px !important;
+}
+.components img{
+    width: 100%;
+}
+.middle {
+    position: relative;
+}
+
+.middle > img{
+    width: 100%;
+}
+.bottom {
+    background-color: #000;
+    min-height: 800px;
+}
+.bottom ul, .bottom ul li {
+    padding: 0;
+}
+.bottom li > img {
+    width: 100%;
+}
+.slide {
+    width: 50%;
+    float: left;
+}
+.launchbtn {
+    position: absolute;
+    top: 56%;
+    left: 40%;
+}
+.prev-arrow, .prev-letter, .next-arrow, .next-letter {
+    float: left;
+}
+.bottom ul li {
+    position: relative;
+}
+.prev, .next {
+    position: absolute;
+    top: 26%;
+    color: #fff;
+}
+.prev {
+    left: 10%;
+}
+.next {
+    right: 10%;
+}
+.prev-letter p, .next-letter p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.prev-letter h3, .next-letter h3 {
+    line-height: 0;
+}
+/*840px*/
+@media (max-width : 800px) and (min-width : 900px){}
+/*768*/
+@media (max-width : 750px) and (min-width : 800px){}
+/*640*/
+@media (max-width : 600px) and (min-width : 650px){}
+/*480px*/
+@media (max-width : 450px) and (min-width : 500px){}
+/*320px*/
+@media (max-width : 300px) and (min-width : 350px){}

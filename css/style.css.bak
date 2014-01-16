@@ -1,0 +1,50 @@
+body, td {
+  
+}
+
+a {
+}
+
+a:hover {
+}
+.jumbotron{
+    background: url('images/header.png') no-repeat;
+    background-size: 100%;     
+} 
+@media (min-width : 1000px){
+    .jumbotron{
+        height: 510px;
+    }
+}
+@media (min-width : 700px) (max-width : 1000px){
+    .jumbotron{
+        height: 480px;
+    }
+}        
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+.middle-earth {
+    text-align: center;
+}
+.task-btn li{
+    list-style: none;
+}
+.task-btn li a {
+    background: url('images/tag.png') no-repeat;
+    display: block;
+    height: 36px;
+}
+
+@media (min-width: 1330px) {
+    .container {
+        width: 1300px;
+    }
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.
