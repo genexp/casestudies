@@ -206,13 +206,52 @@ a:hover {
 .prev-letter h3, .next-letter h3 {
     line-height: 0;
 }
-/*840px*/
-@media (max-width : 800px) and (min-width : 900px){}
-/*768*/
-@media (max-width : 750px) and (min-width : 800px){}
-/*640*/
-@media (max-width : 600px) and (min-width : 650px){}
-/*480px*/
-@media (max-width : 450px) and (min-width : 500px){}
-/*320px*/
-@media (max-width : 300px) and (min-width : 350px){}
+
+@media (min-width: 768px) and (max-width: 850px){
+    .container {
+        width: 100%;
+        padding: 0;
+    }  
+    .middle-earth {
+        padding: 0 0% 4%;
+    }  
+    .middle-earth span {
+        font-size: 22px;
+    }
+    .middle-earth ul li {
+        float: left;
+        width: 33.33%;
+    }
+    .middle-earth ul li:first-child {
+        display: none;
+    }
+    .middle-earth ul li img{
+        width: 103%;
+    }
+    .task-btn li a span {
+        font-size: 14px;
+        top: 17px;
+        left: 19px;
+    }
+    .charactor {
+        display: none;
+    }
+    .anothercontent {
+        padding: 6% 4% 6% 4%;
+    }
+    .anothercontent p {
+        font-size: 22px;
+    }
+    .components li {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .first-row ul li:nth-child(2), .custoimages li:first-child, .conc-art {
+        display: none;
+    }
+    .launchbtn {
+        top: 46%;
+        left: 35%;
+    }
+}
+
