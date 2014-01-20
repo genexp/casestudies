@@ -16,7 +16,7 @@ a:hover {
 .jumbotron{
     background: url('images/header.png') no-repeat;
     background-size: 100%;     
-} 
+}      
 @media (min-width : 1000px){
     .jumbotron{
         height: 510px;
@@ -207,7 +207,7 @@ a:hover {
     line-height: 0;
 }
 
-@media (min-width: 768px) and (max-width: 850px){
+@media(max-width: 1200px){
     .container {
         width: 100%;
         padding: 0;
@@ -252,6 +252,9 @@ a:hover {
     .launchbtn {
         top: 46%;
         left: 35%;
+    }
+    .bottom {
+        display: none;
     }
 }
 
