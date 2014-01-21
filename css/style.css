@@ -204,13 +204,22 @@ a:hover {
 }
 .prev-letter h3, .next-letter h3 {
     line-height: 0;
-}  
+}     
 
-@media(max-width: 800px) {
+@media(max-width: 850px) {
     .prev-letter h3, .next-letter h3 {
-        font-size: 19px;         
+        font-size: 18px;         
     }
-} 
+    .prev-arrow, .next-arrow {
+        padding-left: 0;
+    }     
+    .prev-letter {
+        margin: 8% 0 0 -10%;
+    }
+    .next-letter {
+        margin: 8% 0 0 -4%;
+    }
+}     
 
 @media(max-width: 1200px){
     .container {
@@ -250,9 +259,6 @@ a:hover {
     .components li {
         padding-left: 8%;
         padding-right: 8%;
-    }
-    .conc-art {
-        display: none;
     }  
     .launchbtn {
         top: 46%;
@@ -267,8 +273,35 @@ a:hover {
     .prev, .next {
         top: 18%;
     }
+}
+@media(max-width: 1024px) {      
+    .conc-art {
+        display: none;
+    }  
+}
+@media (min-width: 851px) and (max-width: 1200px) {
     .prev-letter h3, .next-letter h3 {
         font-size: 21px;         
+    }
+    .prev-letter {
+        margin: 7% 0 0 -7%;
+    }
+    .next-letter {
+        margin: 7% 0 0 -6%;
+    }
+}
+@media(min-width: 1024px) and (max-width: 1199px) {
+    .prev-arrow img, .next-arrow img {
+        width: 115%;
+    }
+    .prev-letter h3, .next-letter h3 {
+        font-size: 23px;
+    }
+    .prev, .next {
+        top: 23%;
+    }
+    .prev-letter {
+        margin: 7% 0 0 -2%;
     }
 }
 
@@ -276,6 +309,35 @@ a:hover {
     .components li {
         padding-left: 1%;
         padding-right: 1%;
+    }        
+}      
+@media(max-width: 750px) {
+    .prev-arrow img, .next-arrow img {
+        width: 60%;
+    }
+    .prev-letter h3, .next-letter h3 {
+        font-size: 16px;
     }
     
-}   
+}
+@media(max-width: 670px) {
+    .prev-arrow img, .next-arrow img {
+        width: 50%;
+    }
+    .prev-letter h3, .next-letter h3 {
+        font-size: 13px;
+    }
+    .prev, .next {
+        top: 23%;
+    }
+    .prev-letter {
+        margin: 4% 0 0 -21%;
+    }
+    .next-letter {
+        margin: 4% -4% 0 0;
+    }
+    .next {
+        right: -22%;
+    }
+    
+}
