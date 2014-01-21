@@ -12,21 +12,7 @@ a:hover {
 }
 .header img {
     width: 100%;
-}
-.jumbotron{
-    background: url('images/header.png') no-repeat;
-    background-size: 100%;     
 }      
-@media (min-width : 1000px){
-    .jumbotron{
-        height: 510px;
-    }
-}
-@media (min-width : 700px) (max-width : 1000px){
-    .jumbotron{
-        height: 480px;
-    }
-}        
 
 @media (min-width: 1330px) {
     .container {
@@ -173,6 +159,9 @@ a:hover {
 .bottom li > img {
     width: 100%;
 }
+.bottom h3 {
+    font-size: 23px;
+}
 .slide {
     width: 50%;
     float: left;
@@ -182,7 +171,10 @@ a:hover {
     top: 56%;
     left: 40%;
 }
-.prev-arrow, .prev-letter, .next-arrow, .next-letter {
+.prev-arrow, .prev-letter {
+    float: left;
+}
+.next-arrow, .next-letter  {
     float: left;
 }
 .bottom ul li {
@@ -192,12 +184,19 @@ a:hover {
     position: absolute;
     top: 26%;
     color: #fff;
-}
-.prev {
-    left: 10%;
-}
+    width: 100%;
+}  
 .next {
-    right: 10%;
+    right: -15%;
+}
+.next-letter {
+    margin: 6% 0 0 -3%;
+}
+.next-letter p, .next-letter h3 {
+    text-align: right;
+}
+.prev-letter {
+    margin: 6% 0 0 1%;
 }
 .prev-letter p, .next-letter p {
     text-transform: uppercase;
@@ -205,7 +204,13 @@ a:hover {
 }
 .prev-letter h3, .next-letter h3 {
     line-height: 0;
-}
+}  
+
+@media(max-width: 800px) {
+    .prev-letter h3, .next-letter h3 {
+        font-size: 19px;         
+    }
+} 
 
 @media(max-width: 1200px){
     .container {
@@ -246,15 +251,31 @@ a:hover {
         padding-left: 8%;
         padding-right: 8%;
     }
-    .first-row ul li:nth-child(2), .custoimages li:first-child, .conc-art {
+    .conc-art {
         display: none;
-    }
+    }  
     .launchbtn {
         top: 46%;
         left: 35%;
+    }  
+    .prev-arrow img, .next-arrow img {
+        width: 80%;
     }
-    .bottom {
+    .prev-letter p, .next-letter p {
         display: none;
+    }
+    .prev, .next {
+        top: 18%;
+    }
+    .prev-letter h3, .next-letter h3 {
+        font-size: 21px;         
     }
 }
 
+@media(min-width: 895px) {   
+    .components li {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+}   
