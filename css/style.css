@@ -334,10 +334,65 @@ a:hover {
         margin: 4% 0 0 -21%;
     }
     .next-letter {
-        margin: 4% -4% 0 0;
+        margin: 4% -6% 0 0;
     }
     .next {
         right: -22%;
+    }    
+    .task-btn li a span {
+        font-size: 11px;
+        top: 9px;      
+    }
+    .middle-earth h1 {    
+        font-size: 20px;
+    }
+    .middle-earth span, .anothercontent p, .components span {
+        font-size: 15px;
+        line-height: 25px;
     }
     
+}
+@media(max-width: 590px) {
+    
+    .next-letter, .prev-letter {
+        display: none;
+    }
+    .next-arrow {
+       float: right;
+    }
+    .launchbtn {
+        top: 46%;
+        left: 42%;
+    }
+    .launchbtn img {
+        width: 50%;
+    }   
+    
+}
+@media(max-width: 540px) {
+     .task-btn li a span {
+        font-size: 10px;
+        top: 6px;
+     }
+}
+@media(max-width: 460px) {
+    .prev-arrow img, .next-arrow img {
+           width: 30%;
+    }
+    .prev-arrow {
+        margin-left: 6%;
+    }
+    .middle-earth ul li {
+        float: none;
+        width: 80%;
+    }
+    .task-btn li a span {
+        font-size: 15px;
+        top: 27px;
+    }
+}
+@media (min-width: 300px) and (max-width: 380px ) {
+    .next-arrow {
+        margin-right: -15%;
+    }    
 }
